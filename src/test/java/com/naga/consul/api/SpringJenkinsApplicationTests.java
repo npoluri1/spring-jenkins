@@ -9,10 +9,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SpringJenkinsApplicationTests {
 
 	
-	Logger logger = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
+	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 		
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 		logger.info("Test Case excuting...");
 		assert.Equals(true,true);
 	}
